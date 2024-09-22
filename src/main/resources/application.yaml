@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: advanced
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/indexing_jpa_practice
+    username: pg-user
+    password: pg-password
+    hikari:
+      connection-timeout: 30000     # 30 seconds
+      maximum-pool-size: 10         # Maximum number of connections in the pool
+      auto-commit: true             # Default auto-commit behavior
+      idle-timeout: 600000          # 10 minutes idle timeout
+      minimum-idle: 5               # Minimum number of idle connections in the pool
+                                    # http://localhost:8080/actuator/metrics/hikaricp.connections - Total connections
+                                    # http://localhost:8080/actuator/metrics/hikaricp.connections.active - Active connections
+                                    # http://localhost:8080/actuator/metrics/hikaricp.connections.idle - Idle connections
+                                    # http://localhost:8080/actuator/metrics/hikaricp.connections.pending - Pending threads waiting for a connection
+                                    # http://localhost:8080/actuator/metrics/hikaricp.connections.timeout - Connection timeouts
+                                    # http://localhost:8080/actuator/metrics/hikaricp.connections.usage - Time used for each connection
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics

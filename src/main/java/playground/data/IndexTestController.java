@@ -29,8 +29,8 @@ public class IndexTestController {
     @GetMapping
     public Object runAll() {
         return Map.of(
-                "JPA", queryUsingJPA(),
-                "Streamer", queryUsingStreamer()
+                "JPA", queryUsingJPA()//,
+                //"Streamer", queryUsingStreamer()
         );
     }
 
@@ -61,7 +61,7 @@ public class IndexTestController {
         );
     }
 
-    private <IN, OUT> Map<String, Object> executeAndAnalyze(String query, Supplier<List<Product>> function) {
+    private Map<String, Object> executeAndAnalyze(String query, Supplier<List<Product>> function) {
         long time = System.currentTimeMillis();
         var result = function.get();
         return Map.of(
