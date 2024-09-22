@@ -10,3 +10,6 @@
 - Log into pgAdmin, register the server
 - Copy the query from `product-populate.sql` and run it in our database - it will populate our product table with 1 million data. Note that, I avoided the server side populating as it takes too much time.
 - Hit the end point `http://localhost:8080/` - it queries using different indexes and without indexes to show performance. 
+
+Final result looks as bellow (JPA Streamer comparison also added, it's too slow!)
+![result.png](src%2Fmain%2Fjava%2Fplayground%2Fdata%2Fresult.png)
