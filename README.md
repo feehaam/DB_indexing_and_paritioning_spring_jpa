@@ -1,4 +1,4 @@
 ## Practice repo of database indexing and con����ѥ�����������((���-��������(��A��ѝɕ́
 r�2W6VB���F�Ɨ�VBW6��rF�6�W"6���6R�	��YZ[�[��YY�HY��\�[�[�^[����gmple, 1 composite) is added on Product entity�(��!�����@����Ʌ�䁥́�͕����ȁ������ѥ�����v�Ɩ�r�6��f�wW&F���2�2FFVB��Ɩ6F���˞[[�����[��[��H\�][ۂ�H�[����\�'compose, run spring boot application server, �)A�ݥ����ɕ�є�ѡ��͍����(��1�����Ѽ�������r�&Vv�7FW"F�R6W'fW ��6��F�RVW'�g&��	���X�\�[]K��[[��[�][��\�]X�ase - it will populate our product table with��ā����������ф��9�є�ѡ�а�$��ٽ�����ѡ��͕�wfW"6�FR�V�F��r2�BF�W2F���V6�F��Y˂�H]H[��[������[����` - it queries using different indexes and wi�ѡ��Ё�����́Ѽ�͡�܁��ə�ɵ������()�����ɖw7V�B����22&V���r��7G&V�W"6��&�6���[��YY]	�������JB�Vܙ\�[���Jܧc%2Fmain%2Fjava%2Fplayground%2Fdata%2Fresult.�����
 
-<!-- sync-marker-1 -->
+<!-- sync-marker-2 -->
