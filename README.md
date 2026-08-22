@@ -1,15 +1,4 @@
-## Practice repo of database indexing and connectionn polling
+## Practice repo of database indexing and con����ѥ�����������((���-��������(��A��ѝɕ́
+r�2W6VB���F�Ɨ�VBW6��rF�6�W"6���6R�	��YZ[�[��YY�HY��\�[�[�^[����gmple, 1 composite) is added on Product entity�(��!�����@����Ʌ�䁥́�͕����ȁ������ѥ�����v�Ɩ�r�6��f�wW&F���2�2FFVB��Ɩ6F���˞[[�����[��[��H\�][ۂ�H�[����\�'compose, run spring boot application server, �)A�ݥ����ɕ�є�ѡ��͍����(��1�����Ѽ�������r�&Vv�7FW"F�R6W'fW ��6��F�RVW'�g&��	���X�\�[]K��[[��[�][��\�]X�ase - it will populate our product table with��ā����������ф��9�є�ѡ�а�$��ٽ�����ѡ��͕�wfW"6�FR�V�F��r2�BF�W2F���V6�F��Y˂�H]H[��[������[����` - it queries using different indexes and wi�ѡ��Ё�����́Ѽ�͡�܁��ə�ɵ������()�����ɖw7V�B����22&V���r��7G&V�W"6��&�6���[��YY]	�������JB�Vܙ\�[���Jܧc%2Fmain%2Fjava%2Fplayground%2Fdata%2Fresult.�����
 
-## Key points
-- Postgres DB is used, initialized using docker compose, pgAdmin also added
-- 4 different indexing(3 simple, 1 composite) is added on Product entity
-- HikaryCP library is used for connection pooling, configurations is added in application.yml
-
-## Running the applcation
-- Run docker compose, run spring boot application server, JPA will create the schema
-- Log into pgAdmin, register the server
-- Copy the query from `product-populate.sql` and run it in our database - it will populate our product table with 1 million data. Note that, I avoided the server side populating as it takes too much time.
-- Hit the end point `http://localhost:8080/` - it queries using different indexes and without indexes to show performance. 
-
-Final result looks as bellow (JPA Streamer comparison also added, it's too slow!)
-![result.png](src%2Fmain%2Fjava%2Fplayground%2Fdata%2Fresult.png)
+<!-- sync-marker-1 -->
